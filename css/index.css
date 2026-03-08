@@ -92,8 +92,7 @@ header {
 
 .hero__container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .hero__text {
@@ -313,4 +312,19 @@ footer {
 .sdad {
     background: rgba(43, 74, 97, 0.726);
     padding: 35px 0px 25px 0px;
+}
+
+.social {
+  margin-top: 12%;
+}
+
+  .social__list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+.social__icon {
+   width: 40px;
+   height: 40px   ;
 }
